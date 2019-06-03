@@ -1,6 +1,6 @@
 
-toDigits :: Integer -> [Integer]
-toDigits 0 = []
-toDigits n
+toDigitsRev :: Integer -> [Integer]
+toDigitsRev 0 = []
+toDigitsRev n
   | n < 10 = [n]
-  | otherwise = [mod n 10] ++ toDigits (div n 10)
+  | otherwise = [mod n 10] ++ toDigitsRev (div n 10)
