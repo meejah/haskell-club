@@ -4,3 +4,15 @@ assignments from https://www.cis.upenn.edu/~cis194/spring13/lectures/ for Haskel
 Week 2 notes:
 
  - lists are actually linked-lists
+
+ - colon operator is like prepend an element (dicussing the colon in
+   "pattern matching" vs. implementation, e.g. see Ram's or JP's
+   answers)
+
+ - pattern-matching operators aren't "special"
+
+ - pattern-matching "things" are actually constructors
+
+ - pattern-matching is the only way to make lazy into strict
+   evaluation (i.e. normally doesn't even "take a thing out" of the
+   list
