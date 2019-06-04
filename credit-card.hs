@@ -14,7 +14,6 @@ toDigits n
 doubleEveryOther :: [Integer] -> [Integer]
 doubleEveryOther [] = []
 doubleEveryOther [n] = [n]
-doubleEveryOther [a, b] = [a * 2, b]
 doubleEveryOther (a:b:rest) = [a, b * 2] ++ (doubleEveryOther rest)
 
 sumDigits :: [Integer] -> Integer
